@@ -1,0 +1,35 @@
+# Rust
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# AWS
+.aws/
+*.pem
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Lambda
+bootstrap
+*.zip
+
+# Temporary files
+*.tmp
+*.temp
